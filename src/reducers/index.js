@@ -1,5 +1,9 @@
-// import { combineReducers } from "redux";
-// const rootReducer = combineReducers({
-//     combineReducers
-// })
-// export default  rootReducer;
+import { combineReducers } from "redux";
+import  ActiveData from "./ActiveData";
+import ArchiveData from "./ArchiveData";
+
+const rootReducer = combineReducers({
+    ActiveData,
+    ArchiveData
+})
+export default  rootReducer;
