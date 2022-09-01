@@ -1,0 +1,35 @@
+.cds{
+    background-color:white;
+    width: 100%px;
+    height: 1000px;
+    border-radius: 20px;
+}
+
+@media (max-width: 1400px) {
+    .cds{
+        background-color:white;
+        width: 100%px;
+        height: 1200px;
+        border-radius: 20px;
+    }
+    
+  }
+
+@media (max-width: 1000px) {
+    .cds{
+        background-color:white;
+        width: 100%px;
+        height: 1300px;
+        border-radius: 20px;
+    }
+    
+  }
+@media (max-width: 800px) {
+    .cds{
+        background-color:white;
+        width: 100%px;
+        height: 1400px;
+        border-radius: 20px;
+    }
+    
+  }

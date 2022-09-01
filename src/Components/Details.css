@@ -1,0 +1,131 @@
+.con{
+    background-color:rgba(173,216,230,0.35);
+    border:2px;
+    width: 95%;
+    height: 275px;
+    border-radius: 20px;
+    border: 1px solid rgba(173,216,230);
+}
+
+.text{
+        text-align:center;
+        margin:10px;
+}
+.buttonCssWhite{
+    border-radius:10px;
+    background-color:white;
+    border: 1px solid blue;
+    width:50%;
+    height:40px;
+    color:blue
+}
+
+.imgCss{
+    text-align:center;
+    height:90px;
+    width:90px;
+    border-radius:40px;
+}
+.spanCss1{
+    font-size: 15px;
+}
+.spanCss2{
+    font-size: 15px;
+}
+
+
+@media (max-width: 1400px) {
+    .con{
+        background-color:rgba(173,216,230,0.35);
+        border:2px;
+        width: 95%;
+        height: 250px;
+        border-radius: 20px;
+        border: 1px solid rgba(173,216,230);
+    }
+    
+    .spanCss1{
+        font-size: 12px;
+    }
+   
+  }
+
+
+@media (max-width: 1200px) {
+    .con{
+        background-color:rgba(173,216,230,0.35);
+        border:2px;
+        width: 95%;
+        height: 275px;
+        border-radius: 20px;
+        border: 1px solid rgba(173,216,230);
+    }
+    
+    .spanCss1{
+        font-size: 10px;
+    }
+   
+    .text{
+        text-align:center;
+        margin-top:20px;
+}
+  }
+@media (max-width: 1000px) {
+    .con{
+        background-color:rgba(173,216,230,0.35);
+        border:2px;
+        width: 95%;
+        height: 275px;
+        border-radius: 20px;
+        border: 1px solid rgba(173,216,230);
+    }
+    .onbord{
+        font-size: 20px;}
+    
+    .spanCss1{
+        font-size: 5px;
+    }
+    .spanCss2{
+        font-size: 10px;
+    }
+    .imgCss{
+        text-align:center;
+        height:50px;
+        width:50px;
+        border-radius:30px;
+    }
+
+  }
+@media (max-width: 800px) {
+    .con{
+        background-color:rgba(173,216,230,0.35);
+        border:2px;
+        width: 95%;
+        height: 275px;
+        border-radius: 20px;
+        border: 1px solid rgba(173,216,230);
+    }
+    
+    .spanCss1{
+        font-size: 2px;
+    }
+    .spanCss2{
+        text-align: center;
+        font-size: 5px;
+    }
+    .imgCss{
+        text-align:center;
+        height:50px;
+        width:50px;
+        border-radius:30px;
+    }
+    .buttonCssWhite{
+        border-radius:10px;
+        background-color:white;
+        border: 1px solid blue;
+        width:80%;
+        height:40px;
+        color:blue
+    }
+  }
+ 
