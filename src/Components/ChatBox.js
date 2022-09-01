@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import "./ChatBox.css"
 function ChatBox() {
     const [chats, setChats] = useState("");
-    const [storeChats, setStoreChats] = useState([]);
+    const [storeChats, setStoreChats] = useState(["Hi"]);
 
     const updateChats = (event) => {
         setChats(event.target.value);
