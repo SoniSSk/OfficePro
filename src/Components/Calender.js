@@ -81,7 +81,7 @@ function Calender() {
                         <p> <b>Current Week</b> </p>
                     </Col>
                     <Col>
-                        <p style={{ float: "right", opacity: "0.6" }}>Activity </p>
+                        <p className='asd'>Activity </p>
                     </Col>
                 </Row>
                 <Row>

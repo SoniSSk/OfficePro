@@ -43,10 +43,7 @@ function Chats() {
                 
                 <Row>
                 <Spacer></Spacer>
-                <Col xs={8}> <p style={{
-                        float:"left",  
-                        fontSize:"17px"
-                    }}><b>Active Conversation</b> </p> </Col>
+                <Col xs={8}> <p className='Archive'><b>Active Conversation</b> </p> </Col>
                 <Col xs={2}> <span style={{
                         borderRadius:"20px",
                         height:"20px",
@@ -62,7 +59,7 @@ function Chats() {
                 <Row>
                     
                 <Spacer></Spacer>
-                <Col xs={8}> <p className='"Archive'><b>Archived Conversation</b> </p> </Col>
+                <Col xs={8}> <p className='Archive'><b>Archived Conversation</b> </p> </Col>
                 <Col xs={2}> <span style={{
                         borderRadius:"20px",
                         height:"20px",
